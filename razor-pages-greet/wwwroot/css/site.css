@@ -1,0 +1,102 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.displayName{
+  background-color: pink;
+  padding: 100px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.radio
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.radio label
+{
+  margin-right: 30px;
+  margin-left: 5px;
+  font-size: 30px;
+}
+.widget 
+{
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+  width: 700px; 
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid pink;
+}
+.names
+{
+  padding-bottom: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;  
+}
+.names div
+{
+  background-color: pink;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  
+}
+.names input
+{
+  height: 50px;
+  width: 300px;
+  margin-right: 20px;
+}
+h1
+{
+  padding-bottom: 20px;
+}
+.btn button 
+{
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  width: 150px;
+}
+.widget table
+{
+  width: 600px;
+  margin: 10px auto 20px auto;
+  text-align: center;
+}
+.clearBtn button
+{
+  margin-left: 50px;
+  width: 70px;
+  height: 100;
+  font-size: 20px;
+}
+.clearBtn p
+{
+  margin-left: 50px;
+  color: red;
+}
+
+
+

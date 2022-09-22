@@ -1,0 +1,37 @@
+﻿@page
+@model razor_pages_greet.Pages.GreetedFriendsModel
+@{
+    ViewData["Title"] = "Greeted Friends";
+}
+
+<div class="widget">
+        <table class="table table-stripped table-bordered">
+            <thead>
+                <tr>
+                    <th>FriendsName</th>
+                    <th>Count</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+                @foreach(var key in @Model.GreetingF)
+                {
+                    <tbody>
+                    <tr>
+                        <td>@key.Key</td>
+                        <td> @key.Value</td>
+                        <td> 
+                            <form method="post">
+                                <button asp-page-handler="remove" type="submit" asp-route-name="Name" class="btn btn-outline-danger">Remove</button>
+                                <input asp-for="Greeter.Name" type="hidden" name="Name" value="@key.Key"/>
+                            </form>
+</td>
+                    </tr>
+                    </tbody>
+                }
+            
+        </table>
+    <form method="post" class="clearBtn" asp-page-handler="delete">
+        <p>The Button below will remove all the people you have greeted</p>
+        <button type="submit" class="btn btn-outline-danger">Clear</button>
+    </form>
+</div>
