@@ -15,10 +15,13 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: green;
 }
 .displayName{
-  background-color: pink;
+  background-color: green;
   padding: 100px;
+  color: #FAFAC6;
+  font-size: 25px;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -33,44 +36,63 @@ body {
 }
 .radio label
 {
+  color: green;
+  font-weight: bolder;
   margin-right: 30px;
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 30px;
 }
 .widget 
 {
   align-items: center; 
   justify-content: center; 
+  background-color: #FAFAC6;
   height: 100vh; 
   width: 700px; 
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid pink;
 }
 .names
 {
   padding-bottom: 50px;
   font-size: 30px;
+  color: green;
   display: flex;
   justify-content: center;  
+  font-weight: bolder;
+
+}
+#head
+{
+  font-weight: bolder;
 }
 .names div
 {
-  background-color: pink;
+  background-color: green;
+  border-radius: 5px;
+  color: black;
   font-size: 30px;
   height: 50px;
   width: 50px;
   
+}
+#navi
+{
+  background-color: #FAFAC6;
 }
 .names input
 {
   height: 50px;
   width: 300px;
   margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
 }
 h1
 {
   padding-bottom: 20px;
+  color: green;
+  font-weight: bolder;
 }
 .btn button 
 {
@@ -82,13 +104,17 @@ h1
 .widget table
 {
   width: 600px;
-  margin: 10px auto 20px auto;
+  margin:  0 auto 0 auto;
+  border: green;
   text-align: center;
+  padding-top: 100px;
+  color: green;
 }
 .clearBtn button
 {
+  margin-top: 20px;
   margin-left: 50px;
-  width: 70px;
+  width: 100px;
   height: 100;
   font-size: 20px;
 }
@@ -96,6 +122,12 @@ h1
 {
   margin-left: 50px;
   color: red;
+}
+.user
+{
+  color: green;
+  font-size: 20px;
+  background-color: #FAFAC6;
 }
 
 

@@ -52,15 +52,15 @@ public class IndexModel : PageModel
         {
             if(Greeter.Name != null && Greeter.Language != null)
                 {
-                    if(regX.IsMatch(Greeter.Name))
-                    {
-                        _greet.greetedFriends(Greeter.Name, 1);
-                        Greeting = _greet.Messages(Greeter.Name, Greeter.Language);
-                    }
-                    else{Greeting = "Invalid Name";}
+                 
+                 if(ModelState.IsValid)
+                 {
+                    _greet.greetedFriends(Greeter.Name, 1);
+                    Greeting = _greet.Messages(Greeter.Name, Greeter.Language);
                     Greeter.Name = String.Empty;
                     Greeter.Language = String.Empty;
                     ModelState.Clear();        
+                 }
                 }
 
         }
