@@ -3,7 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddSingleton<IGreet, GreetWithBD>();
+builder.Services.AddSingleton<IGreet, MongoGreet>();
 
 var app = builder.Build();
 
