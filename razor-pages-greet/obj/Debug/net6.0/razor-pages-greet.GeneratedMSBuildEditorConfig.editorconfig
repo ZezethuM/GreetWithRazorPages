@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = razor_pages_greet
 build_property.RootNamespace = razor_pages_greet
-build_property.ProjectDir = /home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/
+build_property.ProjectDir = /home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet
+build_property.MSBuildProjectDirectory = /home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/Pages/Error.cshtml]
+[/home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/Pages/GreetedFriends.cshtml]
+[/home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/Pages/GreetedFriends.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JlZXRlZEZyaWVuZHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/Pages/Index.cshtml]
+[/home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/Pages/Privacy.cshtml]
+[/home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/Pages/userGuide.cshtml]
+[/home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/Pages/userGuide.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdXNlckd1aWRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/Pages/_ViewImports.cshtml]
+[/home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/Pages/_ViewStart.cshtml]
+[/home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/codex/My files/c-sharp_projects/GreetRazor/razor-pages-greet/Pages/Shared/_Layout.cshtml]
+[/home/codex/My files/c-sharp_projects/GreetWithRazorPages/razor-pages-greet/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7ghk0ajy2x
