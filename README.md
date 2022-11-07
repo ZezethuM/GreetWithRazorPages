@@ -16,7 +16,7 @@
 - dotnet restore
 - dotnet build -c Release
 - dotnet bin/Release/net6.0/greet.dll --urls=http://localhost:6007/
-- Now it is runnin @ zezethu.projectcodex.net, but when I exit the port it will stop so I have to     have it running in the background using nginx.
+- Now it is running @ zezethu.projectcodex.net, but when I exit the port it will stop so I have to have it running in the background using nginx.
 
 # RUNNING APPLICATION IN THE BACKGOUND USING NGINX
 - use the command : nohup dotnet bin/Release/net6.0/greet.dll --urls=http://localhost:6007/ > vps.log 2>&1 &
