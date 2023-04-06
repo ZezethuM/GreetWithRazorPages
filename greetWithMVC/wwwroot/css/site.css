@@ -1,0 +1,197 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #DAF5FF;
+  margin-bottom: 60px;
+}
+.count h6
+{
+  font-size: 25px;
+  margin: 0 auto 0 auto;
+  color: #553c9a;
+}
+.displayName
+{
+  padding: 90px;
+  color: #ee4b2b;
+  background-color: #553c9a;
+  text-align: center;
+  font-size: 25px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.radio
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  padding-bottom: 30px;
+}
+h6
+{
+  color: #553c9a;
+}
+.radio input{
+  margin-left: 30px;
+  margin-right: 5px;
+}
+.radio label{
+  padding-top: 6px;
+  margin-right: 30px;
+  font-size: 25px;
+  color: #553c9a;
+}
+.names
+{
+  padding-bottom: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;  
+  font-weight: bolder;
+}
+#head
+{
+  font-weight: bolder;
+}
+.names div
+{
+  border-radius: 5px;
+  color: #553c9a;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  
+}
+.names input
+{
+  height: 50px;
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+h1
+{
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.btn button 
+{
+  margin-right: auto;
+  color: #553c9a;
+  background-color: white;
+  margin-left: auto;
+  font-size: 20px;
+  height: 70px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-color: #553c9a;
+}
+.btn button:hover
+{
+  background-color: #553c9a;
+}
+.screen table
+{
+  width: 400px;
+  margin:  20px auto 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.clearBtn button
+{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100;
+  font-size: 20px;
+}
+.clearBtn p
+{
+  margin-left: 50px;
+  color: red;
+}
+.user
+{
+  font-size: 20px;
+  background-color: #FAFAC6;
+}
+.containers
+{
+  display: flex;
+  background-image: url(../Images/CJaFHIo.jpg);
+  background-repeat: inherit;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.mobile
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 750px;
+  background-color: #553c9a;
+  border-radius: 25px;
+  z-index: 1;
+}
+.screen
+{
+  width: 94%;
+  height: 96%;
+  margin-top: -20px;
+  background-color: #DAF5FF;
+  border-radius: 25px;
+  z-index: 2;
+  text-align: center;
+  align-items: center; 
+  padding-top: 20px;
+  justify-content: center; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-section
+{
+  width: 50%;
+  height: 30px;
+  background-color: #553c9a;
+  border-radius: 0 0 10px 10px;
+  z-index: 3;
+}
+
+.screen h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: transparent;
+  background-image: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+  -webkit-background-clip: text;
+  background-clip: text;    
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 1s infinite alternate-reverse;      
+}
+@keyframes animated-gradient{
+  to{
+    background-position: 200%;
+  }
+}

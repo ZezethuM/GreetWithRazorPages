@@ -1,0 +1,37 @@
+@model Greet
+<div class="containers">
+    <div class="mobile">
+        <div class="header-section"></div>
+        <div class="screen">
+@* <div class="widget"> *@
+        <table class="table table-stripped table-bordered">
+            <thead>
+                <tr>
+                    <th>FriendsName</th>
+                    <th>Count</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+                @foreach(var key in @ViewData["GreetingF"]as Dictionary<string, int>)
+                {
+                    <tbody>
+                    <tr>
+                        <td>@key.Key</td>
+                        <td> @key.Value</td>
+                        <td> 
+                            <form method="post" asp-action="Remove">
+                                <button  type="submit" class="btn btn-danger">Remove</button>
+                                <input asp-for="@Model.FriendsName" type="hidden" value="@key.Key"/>
+                            </form>
+                        </td>
+                    </tr>
+                    </tbody>
+                }
+        </table>
+    <form method="post" class="clearBtn">
+        <button asp-action="ClearAll" type="submit" class="btn btn-danger">Clear</button>
+    </form>
+    @ViewData["Name"]
+    </div>
+</div>
+</div>

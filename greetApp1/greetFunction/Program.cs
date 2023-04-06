@@ -3,7 +3,7 @@ using Dapper;
 using greetFunction.Databases;
 using greetFunction;
 
-IGreet greets = new GreetWithBD();
+IGreet greets = new GreetWithDB();
 // IGreet greets = new MongoGreet("mongodb://0.0.0.0:27017");
 // IGreet greets = new RedisGreet();
 

@@ -2,7 +2,7 @@ using Npgsql;
 using Dapper;
 namespace greetFunction.Databases;
 
-public class GreetWithBD : IGreet
+public class GreetWithDB : IGreet
 {
     string connectionString = "Server=tiny.db.elephantsql.com;Port=5432;Database=dvskbyna;UserId=dvskbyna;Password=ADBsJezup7e_jmpWR07rzHYUCp5qAwFV";
 

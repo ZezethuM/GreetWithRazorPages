@@ -7,7 +7,8 @@ public class UnitTest1
     [Fact]
     public void ShouldBeAbleToGreetDifferentPeopleInAllLanguages()
     {
-        IGreet greets = new GreetWithBD();
+        IGreet greets = new GreetWithDB();
+        
         Assert.Equal("Hello, Zeze", greets.Messages("Zeze", "English"));
         Assert.Equal("Molo, Avile", greets.Messages("Avile", "Isixhosa"));
         Assert.Equal("Bonjour, Phumza", greets.Messages("Phumza", "French"));
@@ -16,7 +17,7 @@ public class UnitTest1
      [Fact]
     public void ShouldBeAbleToStoreNamesAndReturnThem()
     {
-        IGreet greets = new GreetWithBD();
+        IGreet greets = new GreetWithDB();
 
         greets.greetedFriends("Zeze",1 );
         greets.greetedFriends("Avile",1);
@@ -31,7 +32,7 @@ public class UnitTest1
 
     public void ShouldBeAbleToPrintANameThatWasGreeted()
     {
-        IGreet greets = new GreetWithBD();
+        IGreet greets = new GreetWithDB();
 
         greets.greetedFriends("Andre", 1);
         greets.greetedFriends("Yanga", 1);
@@ -43,7 +44,7 @@ public class UnitTest1
     [Fact]
     public void ShouldReturnAMassageThatNameIsNotOnListIfUserSearchANameThatHasNotBeenGreeted()
     {
-        IGreet greets = new GreetWithBD();
+        IGreet greets = new GreetWithDB();
 
         greets.Messages("Yanga", "Isixhosa");
 
@@ -54,7 +55,7 @@ public class UnitTest1
     [Fact]
     public void ShouldBeAbleCountTheNumberOfNamesInTheListAndReturnTheyAre()
     {
-        IGreet greets = new GreetWithBD();
+        IGreet greets = new GreetWithDB();
 
         greets.greetedFriends("Zeze",1 );
         greets.greetedFriends("Avile",1);
@@ -67,7 +68,7 @@ public class UnitTest1
     [Fact]
     public void ShouldBeAbleToClearANameFromTheList()
     {
-        IGreet greets = new GreetWithBD();
+        IGreet greets = new GreetWithDB();
 
         greets.Messages("Yanga", "Isixhosa");
         greets.Messages("Anthony", "Isixhosa");
@@ -78,7 +79,7 @@ public class UnitTest1
     [Fact]
     public void SHouldBeABleToClearAllTheNamesInTheList()
     {
-        IGreet greets = new GreetWithBD();
+        IGreet greets = new GreetWithDB();
 
         greets.Messages("Siphe", "French");
         greets.Messages("Cara", "Isixhosa");

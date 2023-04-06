@@ -33,13 +33,11 @@ public class IndexModel : PageModel
         get;
         set;
     }
-  
     [BindProperty]
      public string? Handler{
         get;
         set;
     }
-
     public void OnGet()
     {
 

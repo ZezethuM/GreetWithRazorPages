@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 // builder.Services.AddSingleton<IGreet, MongoGreet>(x => new MongoGreet(builder.Configuration.GetConnectionString("client")));
 // builder.Services.AddSingleton<IGreet, RedisGreet>();
-builder.Services.AddSingleton<IGreet, GreetWithBD>();
+builder.Services.AddSingleton<IGreet, GreetWithDB>();
 
 var app = builder.Build();
 

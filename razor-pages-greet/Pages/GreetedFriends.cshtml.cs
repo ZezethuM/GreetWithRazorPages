@@ -34,7 +34,7 @@ namespace razor_pages_greet.Pages
           public void OnPostRemove(string Name)
             {
                 if(Handler == "remove"){
-                _greet.Clear(Greeter.Name);
+                _greet.Clear(Greeter.Name!);
                 Greeter.Name = String.Empty;
                 ModelState.Clear(); 
             }
