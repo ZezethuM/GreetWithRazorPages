@@ -42,6 +42,7 @@ public class HomeController : Controller
                 {
                     _greetRepo.greetedFriends(greet.FriendsName, 1);
                     ViewData["FriendsName"] = _greetRepo.Messages(greet.FriendsName, greet.Language!);
+                    ModelState.Clear();
                     return View("Index");
                 }
                 else

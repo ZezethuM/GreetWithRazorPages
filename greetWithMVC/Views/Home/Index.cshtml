@@ -8,7 +8,7 @@
             <form method="post">
                 <h1 class="display-4" id="head">GreetApp</h1>
             <div class="names">
-                <input asp-for="@Model.FriendsName" type="name" class="form-control"  placeholder="Enter Name" />
+                <input asp-for="@Model.FriendsName" type="name" class="form-control" required placeholder="Enter Name" />
             </div>
             <h6>Select Language: </h6>
             <div class="radio">
@@ -24,7 +24,7 @@
             </div>
             <div class="count"><h6>Greeted People : @ViewData["Count"]</h6></div>
              <div class="displayName">
-                <div>@ViewData["FriendsName"]</div>
+                <span class="alert">@ViewData["FriendsName"]</span>
             </div>
             </form>
         </div>
